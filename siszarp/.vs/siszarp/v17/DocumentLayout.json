@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\siszarp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21D49FC5-5733-4212-ABF7-1A400BD3E723}|siszarp\\siszarp.csproj|c:\\users\\user\\source\\repos\\siszarp\\siszarp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21D49FC5-5733-4212-ABF7-1A400BD3E723}|siszarp\\siszarp.csproj|solutionrelative:siszarp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21D49FC5-5733-4212-ABF7-1A400BD3E723}|siszarp\\siszarp.csproj|c:\\users\\user\\source\\repos\\siszarp\\siszarp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{21D49FC5-5733-4212-ABF7-1A400BD3E723}|siszarp\\siszarp.csproj|solutionrelative:siszarp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\siszarp\\siszarp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "siszarp\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\siszarp\\siszarp\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "siszarp\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T06:53:32.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\siszarp\\siszarp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "siszarp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\siszarp\\siszarp\\MainWindow.xaml",
+              "RelativeToolTip": "siszarp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-18T06:53:30.612Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

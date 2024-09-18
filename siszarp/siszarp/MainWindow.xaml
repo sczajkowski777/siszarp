@@ -1,0 +1,88 @@
+﻿<Window x:Class="siszarp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:siszarp"
+        mc:Ignorable="d"
+        Title="Wprowadzenie danych do paszportu. Wykonał:" Height="450" Width="800">
+    <Grid Background="CadetBlue">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" HorizontalAlignment="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" VerticalAlignment="Center">Numer</Label>
+                    <Label Grid.Row="1" VerticalAlignment="Center">Imie</Label>
+                    <Label Grid.Row="2" VerticalAlignment="Center">Nazwisko</Label>
+                </Grid>
+                <Grid Grid.Column="1" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <TextBox Name="tbNr" Grid.Row="0" Margin="-15,21,55,19" Background="Azure"></TextBox>
+                    <TextBox Name="tbImie" Grid.Row="1" Margin="-15,21,55,19" Background="Azure"></TextBox>
+                    <TextBox Name="tbNazwisko" Grid.Row="2" Margin="-15,19,55,21" Background="Azure"></TextBox>
+
+                </Grid>
+
+            </Grid>
+            <Grid Margin="0,217,-42,0" Grid.RowSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <GroupBox Margin="20" Header="Koror Oczu">
+                    <Grid Name="rbbox" Margin="11,0,18,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <RadioButton Grid.Row="0" HorizontalAlignment="Left" VerticalAlignment="Center" Name="rbniebieski">niebieskie</RadioButton>
+                        <RadioButton Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center" Name="rbzielony">zielone</RadioButton>
+                        <RadioButton Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Name="rbpiwny">piwne</RadioButton>
+                    </Grid>
+                </GroupBox>
+
+            </Grid>
+
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="\Images\R.png" Grid.Column="0"></Image>
+                <Image Source="\Images\fp.png" Grid.Column="1"></Image>
+
+            </Grid>
+            <Grid Grid.Row="1">
+                <Button Height="50" Background="Azure" Click="Button_Click" Margin="200,10,68,27">OK</Button>
+
+            </Grid>
+        </Grid>
+    </Grid>
+
+</Window>
